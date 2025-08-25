@@ -1,61 +1,64 @@
-# Month 2: Statistics and Python for Data Science
+# Month 2: Advanced Statistics & Python for Data Science
 
 ## 🎯 Goals for Month 2
-- Build a solid foundation in probability & statistics
-- Apply Python for statistical computations
-- Strengthen analytical problem-solving with real datasets
+- Strengthen probability and inferential statistics
+- Learn regression, correlation, and ANOVA
+- Apply Python for data wrangling and analysis
 - Complete 4 weekly mini-projects
 
 ---
 
 ## 📅 Daily Breakdown
 
-### Week 1: Probability Basics + Python Stats
-- **Day 1**: Concepts — Random Variables, Probability Distributions (Uniform, Normal)
-- **Day 2**: Python — Using `random` and `numpy` for probability experiments
-- **Day 3**: Concepts — Mean, Median, Mode, Variance, Standard Deviation
-- **Day 4**: Python — Implement statistical functions using `numpy`
-- **Day 5**: Practice — Solve 10 problems on mean/variance/probability
-- **Day 6**: Concepts — Conditional Probability, Bayes Theorem
-- **Day 7 (Mini Project)**: Simulate a dice/coin flip experiment and analyze probabilities
+### Week 5: Advanced Probability & Distributions
+- **Day 31** – Poisson & Exponential distributions → Model calls per hour  
+- **Day 32** – Geometric & Negative Binomial → Trials until success simulation  
+- **Day 33** – Joint & marginal probability → Calculate joint probabilities for a dataset  
+- **Day 34** – Bayes’ Theorem → Probability of disease given test result  
+- **Day 35** – Bayesian thinking in DS → Update prior beliefs with observed data  
+- **Day 36** – PDF & CDF → Visualize for normal distribution  
+- **Day 37 (Mini-Project)** – **Bayesian Spam Filter Simulation**: Naive Bayes from scratch, classify spam vs ham  
 
 ---
 
-### Week 2: Hypothesis Testing & Distributions
-- **Day 8**: Concepts — Normal Distribution, Z-scores
-- **Day 9**: Python — Visualizing distributions with `matplotlib`/`seaborn`
-- **Day 10**: Concepts — Hypothesis Testing, Null/Alternate Hypothesis
-- **Day 11**: Python — t-test, chi-square test with `scipy.stats`
-- **Day 12**: Practice — Perform hypothesis tests on small datasets
-- **Day 13**: Concepts — p-value, confidence intervals
-- **Day 14 (Mini Project)**: Analyze a dataset (e.g., student scores) using hypothesis testing
+### Week 6: Inferential Statistics
+- **Day 38** – Law of Large Numbers → Simulate dice rolls with increasing sample size  
+- **Day 39** – Maximum Likelihood Estimation (MLE) → Estimate mean of normal distribution  
+- **Day 40** – Standard Error & Margin of Error → Compute margin of error for sample proportions  
+- **Day 41** – Hypothesis Testing (Z/T test deeper) → Test average salary difference  
+- **Day 42** – Power of a test & effect size → Simulate effect of sample size on power  
+- **Day 43** – Bootstrap sampling → Compute bootstrap confidence intervals  
+- **Day 44 (Mini-Project)** – **Bootstrap Analysis Project**: Use Titanic or any dataset, bootstrap mean survival rate, compare CI  
 
 ---
 
-### Week 3: Correlation & Regression Basics
-- **Day 15**: Concepts — Covariance, Correlation (Pearson/Spearman)
-- **Day 16**: Python — Calculate correlations with `pandas`
-- **Day 17**: Concepts — Simple Linear Regression
-- **Day 18**: Python — Implement regression using `scikit-learn`
-- **Day 19**: Practice — Apply regression on synthetic datasets
-- **Day 20**: Concepts — R² score, Overfitting basics
-- **Day 21 (Mini Project)**: Build a regression model predicting house prices (simple dataset)
+### Week 7: Correlation, Regression & ANOVA
+- **Day 45** – Correlation vs causation → Compute correlation heatmap  
+- **Day 46** – Simple linear regression → Implement gradient descent manually  
+- **Day 47** – Multiple linear regression → Predict house prices with >1 variable  
+- **Day 48** – Regression assumptions → Check residuals, normality, homoscedasticity  
+- **Day 49** – ANOVA deeper dive → Compare means across 3+ groups  
+- **Day 50** – Post-hoc tests (Tukey HSD) → Identify which groups differ  
+- **Day 51 (Mini-Project)** – **Regression Analysis Project**: Boston Housing dataset, multiple regression, R² analysis  
 
 ---
 
-### Week 4: Advanced Stats + Real Data
-- **Day 22**: Concepts — Central Limit Theorem (CLT)
-- **Day 23**: Python — Demonstrate CLT using simulations
-- **Day 24**: Concepts — Sampling methods (random, stratified)
-- **Day 25**: Python — Bootstrap sampling
-- **Day 26**: Practice — Work on applied probability problems (Kaggle datasets)
-- **Day 27**: Concepts — Intro to ANOVA
-- **Day 28 (Mini Project)**: Perform ANOVA on a dataset (e.g., comparing exam scores across 3 groups)
+### Week 8: Python for Data Science (Applied Wrangling)
+- **Day 52** – Advanced Pandas indexing (loc, iloc, masks) → Extract passengers under 18  
+- **Day 53** – Merging & joining datasets → Merge sales & customer data  
+- **Day 54** – Pivot tables & cross-tabulation → Create pivot of sales by region/month  
+- **Day 55** – String operations → Clean messy text column  
+- **Day 56** – Apply & map functions → Custom transformations  
+- **Day 57** – Handling large datasets → Chunking, intro to Dask  
+- **Day 58 (Mini-Project)** – **Data Wrangling & Cleaning Project**: Take messy dataset (IMDB movies), clean, merge, transform, deliver analysis-ready dataset  
 
 ---
 
-## 📌 Deliverables for Month 2
-- Daily notes + code for all statistical concepts
-- 4 mini-projects (coin flip, hypothesis testing, regression, ANOVA)
-- A summary notebook consolidating all statistical learnings
-
+## ✅ Deliverables for Month 2
+- 30+ solved problems (advanced probability, inference, regression, wrangling)  
+- 4 Mini-projects:  
+  1. Bayesian Spam Filter  
+  2. Bootstrap Analysis  
+  3. Regression Analysis  
+  4. Data Wrangling Project  
+- GitHub-ready notebooks & explanations
